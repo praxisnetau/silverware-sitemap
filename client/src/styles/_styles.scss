@@ -1,0 +1,48 @@
+/* SilverWare Sitemap Styles
+===================================================================================================================== */
+
+.sitemappage {
+  
+  div.sitemap {
+    
+    a {
+      color: inherit;
+      margin: $spacer-quarter 0;
+      display: block;
+    }
+    
+    ul {
+      
+      padding: 0;
+      list-style: none;
+      
+      ul {
+        font-size: $font-size-sm;
+        padding-left: $spacer-half;
+      }
+      
+    }
+    
+    > ul.sitemap-list {
+      
+      > li.sitemap-item {
+        
+        > a {
+          
+          margin: $spacer-half 0;
+          padding: $spacer-half;
+          background-color: $gray-200;
+          
+          > i.fa {
+            display: none;
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
